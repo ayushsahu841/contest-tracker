@@ -49,12 +49,12 @@ A web application that helps competitive programmers discover upcoming coding co
 ```text
 contest-tracker/
 
+├── README.md
+│
 ├── index.html
 ├── mycontests.html
 ├── rating.html
 ├── privacy.html
-├── login.html
-├── profile.html
 │
 ├── script.js
 ├── mycontests.js
