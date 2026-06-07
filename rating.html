@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Rating Tracker</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+    <nav>
+
+        <h2>Contest Tracker</h2>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="mycontests.html">My Contests</a></li>
+
+        </ul>
+
+    </nav>
+
+    <h1>Rating Tracker</h1>
+
+    <div id="rating-container">
+
+    </div>
+
+    <h3>Add Handle</h3>
+
+    <div class="handle-form">
+
+        <select id="platform">
+            <option value="codeforces">Codeforces</option>
+        </select>
+        
+        
+        <input
+            id="handle-input"
+            placeholder="Enter Handle">
+    
+        <button id="save-handle-btn">
+            Save Handle
+        </button>
+    
+    </div>
+
+    <h3>Saved Handles</h3>
+
+<div id="handles-container">
+
+</div>
+
+<div class="rating-table-container">
+
+    <table class="rating-table">
+
+        <thead>
+
+            <tr>
+
+                <th>Platform</th>
+                <th>Handle</th>
+                <th>Rating</th>
+                <th>Max Rating</th>
+                <th>Rank</th>
+                <th>Action</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody id="rating-body">
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<script src="rating.js"></script>
+
+</body>
+
+</html>

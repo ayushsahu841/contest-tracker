@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contest Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <h2>Contest Tracker</h2>
+
+        <ul>
+
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+        
+            <li>
+                <a href="mycontests.html"
+                    id="my-contests-link">
+
+                    My Contests
+
+                </a>
+            </li>
+        
+            <li>
+                <a href="rating.html">
+                    Rating Tracker
+                </a>
+            </li>
+
+            <li>
+                <a href="privacy.html">
+
+                    Privacy Policy
+            
+                </a>
+            </li>
+            
+        
+        </ul>
+    </nav>
+
+
+    <section class="hero">
+        <h1>Track Every Coding Contest In One Place</h1>
+
+        <p>
+            Discover contests, save favorites, use smart filters,
+track your rating, and manage everything from one place.
+            </p>
+        
+    </section>
+
+    <div class="filters">
+
+        <button
+            id="all-btn"
+            data-name="All">
+            ✓ All
+        </button>
+    
+        <button
+            id="cf-btn"
+            data-name="Codeforces">
+            Codeforces
+        </button>
+    
+        <button
+            id="lc-btn"
+            data-name="LeetCode">
+            LeetCode
+        </button>
+    
+        <button
+            id="cc-btn"
+            data-name="CodeChef">
+            CodeChef
+        </button>
+    
+        <button
+            id="ac-btn"
+            data-name="AtCoder">
+            AtCoder
+        </button>
+    
+        <button
+            id="kaggle-btn"
+            data-name="Kaggle">
+            Kaggle
+        </button>
+    
+    </div>
+
+    <section class="search-section">
+        <input
+            type = "text"
+            id = "search-input"
+            placeholder = "Serch contest..."
+        >
+    </section>
+
+
+    <div class="view-buttons">
+
+        <button id="card-view-btn">
+            Card View
+        </button>
+    
+        <button id="table-view-btn">
+            Table View
+        </button>
+    
+    </div>
+    
+    <section
+        class="cards"
+        id="contest-container">
+    </section>
+    
+    <section
+        id="table-container"
+        style="display:none;">
+    </section>
+    
+
+<script src="script.js">
+</script>
+
+</body>
+
+</html>
